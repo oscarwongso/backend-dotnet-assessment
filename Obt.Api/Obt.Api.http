@@ -1,0 +1,9 @@
+@Obt.Api_HostAddress = http://localhost:8080
+
+POST {{Obt.Api_HostAddress}}/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "alex.rivera@obt.demo",
+  "password": "Password123!"
+}
